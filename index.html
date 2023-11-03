@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            justify-content: center;
+        }
+        dialog::backdrop {
+            background: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <button style="    margin-left: 713px;
+    margin-top: 300px;" id="open">Bos shetka</button>
+
+    <dialog>
+        <h2>Otaxo SAN!!!</h2>
+        <P>Dunyodegi eng kota pidarasan, kotsan, gandonsan, tvar san umrimda sandaqa pidr di kormaganman</P>
+        <h3>ENG MUHIMI SAN 100%li CHORTSAN + voy - voy polojitelniy yoki otritsatelniy farqi yoq SAN PROSTO CHORT S-A-N!!!!!!!</h3>
+    </dialog>
+
+    <script>
+        const openBtn = document.querySelector
+        ('#open')
+
+        const dialog = document.querySelector
+        ('dialog')
+
+        openBtn.onclick = () => dialog.showModal()
+    </script>
+</body>
+</html>
